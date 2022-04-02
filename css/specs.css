@@ -3,6 +3,7 @@
 section#conteudo{
     width: 1000px;
     margin: auto;
+    
 }
 
 iframe#frame-spec {
@@ -10,9 +11,12 @@ iframe#frame-spec {
     height: 280px;
     border: none;
     overflow: hidden; /*evita que a rolagem aconteça*/
-
+    
 }
 
 iframe#frame-spec::-webkit-scrollbar{
     display: none;
+    
 }
+
+
