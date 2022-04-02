@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Glass</title>
+    <link rel="stylesheet" href="_css/style.css">
+    <link rel="stylesheet" href="_css/media.css">
+
+
+
+</head>
+
+
+<body>
+    <div id="interface">
+
+        <header id="cabecalho">
+            <hgroup>
+                <!--grupo de titulos para deixar semantica-->
+                <h1>Google Glass</h1>
+                <h2>A revolução do Google está chegando</h2>
+                <h1>Glass</h1>
+            </hgroup>
+            <img id="icone" src="_imagens/glass-oculos-preto-peq.png" alt="oculos-pequeno">
+
+            
+            <nav id="menu">
+                <h1>Menu Principal</h1>
+                <ul>
+                    <li onmouseover="mudaFoto('_imagens/home.png')"
+                        onmouseout="mudaFoto('_imagens/multimidia.png')"><a href="index.html">Home</a></li>
+
+                    <li onmouseover="mudaFoto('_imagens/especificacoes.png')"
+                        onmouseout="mudaFoto('_imagens/multimidia.png')"><a
+                            href="specs.html">Especificações</a></li>
+
+                    <li onmouseover="mudaFoto('_imagens/fotos.png')"
+                        onmouseout="mudaFoto('_imagens/multimidia.png')"><a href="fotos.html">Fotos</a></li>
+
+                    <li onmouseover="mudaFoto('_imagens/multimidia.png')"
+                        onmouseout="mudaFoto('_imagens/multimidia.png')"><a
+                            href="multimidia.html">Multimídia</a></li>
+
+                    <li onmouseover="mudaFoto('_imagens/contato.png')"
+                        onmouseout="mudaFoto('_imagens/multimidia.png')"><a href="fale-conosco.html">Fale
+                            conosco</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="corpo-full">
+            <article id="noticia-principal">
+                <header id="artigo-cabecalho">
+                    <hgroup>
+                        <h3>Glass > Multimídia</h3>
+                        <h1>Sons e Vídeos</h1>
+                        <h2>por Gustavo Guanabara</h2>
+                        <h3 class="direita">Atualizado em 23/Abril/2013</h3>
+                    </hgroup>
+                </header>
+
+                <div id="tv-radio">
+                    <audio id="musica" controls="controls">
+                        <source src="_media/2009-lovers-carvings-bibio.mp3" type="audio/mpeg">
+                        Desculpe, mas não foi possível carregar o áudio.
+
+
+                            <!--    outros fomratos alem do mp3
+                                
+                                <source src="_media/2009-lovers-carvings-bibio.webm" type="audio/webm">
+                        <source src="_media/2009-lovers-carvings-bibio.ogv" type="audio/ogg">-->
+                        
+
+                    </audio>
+
+                    
+                        
+
+                        <!--
+                            
+                            <video id="filme" controls="controls" poster="_imagens/video-mini03.jpg">
+                        <source src="_media/getting-started.mp4" type="video/mp4">
+                            
+                            
+                            
+                            
+                            outros formatos alem do mp4
+
+                             <source src="_media/getting-started.webm" type="video/webm">
+                        <source src="_media/getting-started.ogv" type="video/ogg">
+                        -->
+                       
+                    </video>
+                </div>
+
+                <iframe id="filme" width="560" height="315" src="https://www.youtube.com/embed/4EvNxWhskf8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+                </article>
+            </section>
+
+<footer id="rodape">
+    Copyright 2022 - by Rafael
+    <a href="https://www.facebook.com/profile.php?id=100013359691488" target="_blank">Facebook</a> | <a
+        href="https://github.com/Rafa2697" target="_blank">Github</a>
+</footer>
+
+</div>
+<script src="scrpt.js"></script>
+</body>
+
+</html>
