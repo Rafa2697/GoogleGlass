@@ -44,10 +44,10 @@ fieldset#sexo {
 }
 
 fieldset#usuario {
-    background: url("../imagens/icone-contato.png") no-repeat 95% 95%;
+    background: url(../imagens/icone-contato.png) no-repeat 95% 95%;
 }
 
-fieldset#endereco{
+fieldset#endereco {
     background: url(../imagens/icone-endereco.png) no-repeat 95% 95%;
 }
 
